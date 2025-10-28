@@ -18,7 +18,7 @@ step 3:
 compilation & installation
 
 
-$ cd tux/
+$ cd tuxsay/
 
 $ g++ -std=c++17 "tuxsay.cpp" -o tuxsay
 
