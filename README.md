@@ -22,7 +22,7 @@ $ cd tuxsay/
 
 $ g++ -std=c++17 "tuxsay.cpp" -o tuxsay
 
-$ sudo install -Dm755 tuxsay "$pkgdir/usr/bin/tuxsay"
+$ sudo install -Dm755 tuxsay /usr/bin/tuxsay
 
 step 4:
 program launch
