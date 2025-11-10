@@ -20,7 +20,7 @@ compilation & installation
 
 $ cd tuxsay/
 
-$ g++ -std=c++17 "tuxsay.cpp" -o tuxsay
+$ g++ -std=c++17 tuxsay.cpp -o tuxsay
 
 $ sudo install -Dm755 tuxsay /usr/bin/tuxsay
 
