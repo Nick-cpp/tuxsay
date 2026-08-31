@@ -1,14 +1,10 @@
-if you use arch by the way you can download this package from AUR ( yay -S tuxsay )
+if you use arch by the way you can download this package from AUR ( yay -S tuxsay ) ( old c++ version )
 
 compilation from source code:
 
 step 1:
-you need installed gcc and git package ( Gnu Complier Collection )
-```
-$ sudo apt install gcc git - debian-based
+you need installed holy C complier and git package
 
-$ sudo pacman -S gcc git - arch-based
-```
 step 2:
 download the project repository
 ```
@@ -18,14 +14,14 @@ step 3:
 compilation & installation
 
 ```
-$ cd tuxsay/
+$ cd fflash/
 
-$ g++ -std=c++17 tuxsay.cpp -o tuxsay
+$ hcc tuxsay.hc -o tuxsay
 
-$ sudo mv tuxsay /usr/bin/tuxsay
+# mv tuxsay /usr/bin/tuxsay
 ```
 step 4:
 program launch
 ```
-$ tuxsay
+$ tuxsay your text here
 ```
